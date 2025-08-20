@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fedback.css">
+</head>
+<body>
+    <button class="but1"><a class="butte" href="index.html">Back to home</a></button>
+    <div class="form">
+        <div class="feedback">
+                <img class="img1" src="img/thumb_031.jpg" alt="xxxx">
+            <p class="head1">Feedback Form</p>
+            <form action="dummy.html"  method="get" target="_blank">
+            <div class="name">
+                <label for="fn" class="name1">Enter Your name:</label>
+                <input class="name2"type="text" id="fn" name="name" placeholder="Enter Your full name" required="Pleace enter your name" ><br>
+            </div>
+            <div class="time">
+                <label for="time" class="time1">Enter the time when you send your feedback:</label>
+                <input type="time" class="time2" name="ftime" placeholder="00:00" >
+            </div>
+            <div class="number">
+                <label for="number" class="number1">Your contect number:</label>
+                <input type="tel" class="number2" name="number" placeholder="+91" required="Pleace enter your contect number">
+            </div>
+            <div class="email">
+                <label class="email1"for="E-mail">Your E-mail id:</label>
+                <input class="email2"type="email" id="E-mail" name="E-mail"  placeholder="/-@gmail.com" required="Pleace enter your E-mail id">
+            </div>
+            <div class="option">
+                <span class="t1">Your occupation is:</span>  <span class="t2">Employee</span> <input class="option1" type="radio" name="occupation" id="k" required="Pleace enter your occupation">  <span class="t3">Student</span><input class="option1" type="radio" name="occupation" id="o" method="get"> <span class="t4">Company owner</span><input class="option1"type="radio" name="occupation" id="l" method="get">
+            </div>
+            <div class="text">
+                <label class="text1" for="advice">Enter your advice for our Company:</label>
+                <textarea class="text2" name="advice" id="advice" value="Your advice" rows="10" cols="20" required="Pleace enter your advice"></textarea>
+            </div>
+            <div class="op">
+                <span class="op1">Visit Reson:</span>
+                <select class="op2" name="option">
+                    <option value="You need job in our Company">You need job in our Company</option>
+                    <option value="You devlop your company like my company" selected>You devlop your company like my company</option>
+                    <option value="You just collect information in my cpmpany">You just collect information in my cpmpany</option>
+                </select>
+            </div>
+            <input type="submit" value="submit now" class="submit">
+            <input type="reset" value="Reset now" id="reset">
+       
+            </form>
+        </div>
+        
+    </div>    
+</body>
+</html>
